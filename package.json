@@ -1,0 +1,29 @@
+{
+	"name": "mjackson.info",
+	"version": "0.0.0",
+	"description": "Personal site.",
+	"main": "",
+	"repository": "",
+	"author": "Matthew Jackson <mwj8410@gmail.com>",
+	"dependencies": {
+		"angular": "^1.5.2"
+	},
+	"devDependencies": {
+		"eslint": "*",
+		"express": "*",
+		"gulp": "*",
+		"gulp-angular-embed-templates": "*",
+		"gulp-clean-css": "*",
+		"gulp-concat-util": "*",
+		"gulp-html-minifier": "*",
+		"gulp-rename": "*",
+		"gulp-sass": "*",
+		"gulp-uglify": "*",
+		"jasmine": "*"
+	},
+	"scripts": {
+		"eslint": "eslint src_ui",
+		"start": "node previewHost/host.js",
+		"test": "node_modules/.bin/jasmine"
+	}
+}
