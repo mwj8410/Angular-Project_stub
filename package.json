@@ -1,25 +1,30 @@
 {
-	"name": "mjackson.info",
-	"version": "0.0.0",
+	"name": "angular-project_stub",
+	"version": "0.1.0",
 	"description": "Personal site.",
 	"main": "",
-	"repository": "",
+	"repository": {
+		"type" : "git", 
+		"url" : "https://github.com/mwj8410/Angular-Project_stub.git"
+	},
 	"author": "Matthew Jackson <mwj8410@gmail.com>",
 	"dependencies": {
 		"angular": "^1.5.2"
 	},
 	"devDependencies": {
-		"eslint": "*",
-		"express": "*",
-		"gulp": "*",
-		"gulp-angular-embed-templates": "*",
-		"gulp-clean-css": "*",
-		"gulp-concat-util": "*",
-		"gulp-html-minifier": "*",
-		"gulp-rename": "*",
-		"gulp-sass": "*",
-		"gulp-uglify": "*",
-		"jasmine": "*"
+		"async": "~0.2.8",
+		"eslint": "2.11.1",
+		"express": "~3.2.4",
+		"gulp": "3.9.1",
+		"gulp-angular-embed-templates": "2.2.0",
+		"gulp-clean-css": "2.0.9",
+		"gulp-concat-util": "0.5.5",
+		"gulp-html-minifier": "0.1.8",
+		"gulp-rename": "1.2.2",
+		"gulp-sass": "2.3.1",
+		"gulp-uglify": "1.5.3",
+		"jasmine": "2.4.1",
+		"request": "2.72.0"
 	},
 	"scripts": {
 		"eslint": "eslint src_ui",
